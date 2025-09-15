@@ -1,11 +1,15 @@
-
-
 # 📱 Google Play Store — App Performance Analytics
+
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 📌 Project Overview
 
 This project analyzes **Google Play Store app data** to explore app quality, user ratings, installs, and performance categories.
 The workflow combines **Python (for cleaning & preprocessing)** and **Power BI (for modeling & dashboarding)** to build insights that can help identify **Star Performers, underperforming apps, and opportunities for growth**.
+
+---
 
 ## 🔍 Objectives
 
@@ -14,12 +18,16 @@ The workflow combines **Python (for cleaning & preprocessing)** and **Power BI (
 * Build an **interactive dashboard** to visualize installs, ratings, categories, and performance segmentation.
 * Identify **insights & recommendations** for app developers and product managers.
 
+---
+
 ## 🗂 Dataset
 
 * **Raw dataset:** `googleplaystore.csv`
 * **Cleaned dataset (used in Power BI):** `googleplaystore_cleaned.csv`
 * **Rows:** \~10.8K apps
 * **Columns:** 13 (App, Category, Rating, Reviews, Size, Installs, Type, Price, Content Rating, Genres, Last Updated, Current Ver, Android Ver)
+
+---
 
 ## ⚙️ Data Cleaning (Python)
 
@@ -31,6 +39,8 @@ Key cleaning steps performed in Python (`Googleplaystoredata_1757914663.pdf` not
 * Filled missing `Rating` with **median**.
 * Dropped rows with critical missing values.
 * Exported cleaned dataset → `googleplaystore_cleaned.csv`.
+
+---
 
 ## 📊 Power BI Modeling
 
@@ -73,9 +83,11 @@ DIVIDE(
 )
 ```
 
+---
+
 ## 📈 Dashboard Highlights
 
-The **Power BI Dashboard**  includes:
+The **Power BI Dashboard** (`google playstore power BI.pdf`) includes:
 
 * **KPIs:** Total Apps, Total Installs, Avg Rating, Avg Days Since Update.
 * **Performance Segmentation:** Star Performers, High Quality, Popular but Poor, Needs Improvement.
@@ -87,6 +99,10 @@ The **Power BI Dashboard**  includes:
   * Market Share of Top Performers
   * Top Apps (Installs & Ratings)
 
+📌 *Example Insight:* Star Performers (apps with high installs & ratings) dominate installs, while a segment of **Popular but Poor** apps shows opportunity for improvement.
+
+---
+
 ## 💡 Key Insights
 
 * **Average rating ≈ 4.2** → apps generally rate positively.
@@ -95,6 +111,8 @@ The **Power BI Dashboard**  includes:
 * **App size does not strongly determine installs**; small and large apps both succeed.
 * **Content rating "Everyone"** accounts for the majority of installs.
 
+---
+
 ## 🚀 Recommendations
 
 * Focus on **improving “Popular but Poor” apps** with high installs but low ratings.
@@ -102,9 +120,39 @@ The **Power BI Dashboard**  includes:
 * Track **update frequency** as Avg\_Days\_Since\_Update strongly correlates with quality perception.
 * Target categories like **Games, Tools, and Productivity** for maximum reach.
 
+---
+
+## 📂 Repository Structure
+
+```bash
+📦 GooglePlaystore-Analytics
+ ┣ 📜 README.md
+ ┣ 📂 data
+ ┃ ┣ googleplaystore.csv          # Raw dataset
+ ┃ ┣ googleplaystore_cleaned.csv  # Cleaned dataset
+ ┣ 📂 notebooks
+ ┃ ┗ Googleplaystoredata.ipynb    # Python cleaning code
+ ┣ 📂 dashboard
+ ┃ ┗ google_playstore.pbix        # Power BI Dashboard file
+ ┣ 📂 reports
+ ┃ ┗ google playstore power BI.pdf # PDF export of dashboard
+```
+
+---
 
 ## 🛠 Tools & Technologies
 
 * **Python (Pandas, Numpy, Matplotlib, Seaborn)** → Data Cleaning & Preprocessing
 * **Power BI (DAX, Dashboarding)** → Modeling & Visualization
+
+---
+
+## 📜 License
+
+This project is released under the MIT License.
+
+---
+
+✨ If you like this project, feel free to **star the repo ⭐** and connect with me!
+
 
